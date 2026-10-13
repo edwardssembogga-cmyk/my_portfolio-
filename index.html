@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <style>
+        /* Design and appearance of the website */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #0077b6;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #0077b6;
+        }
+
+        footer {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .button {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #14213d 0%, #0077b6 100%);
+            color: white;
+            margin: 20px;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            animation: slideUp 1s ease-out 0.3s both;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            animation: slideUp 1s ease-out 0.5s both;
+        }
+
+        .hero .button {
+            animation: slideUp 1s ease-out 0.7s both;
+            display: inline-block;
+            opacity: 0;
+        }
+
+        .hero .button {
+            opacity: 1;
+        }
+
+        footer a {
+            color: #0077b6;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 20px;
+            }
+
+            nav {
+                padding: 10px;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .hero {
+                padding: 40px 15px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <header>
+        <h1>Hello,
+            My name is SSEMBOGGA EDWARD EDWIN</h1>
+        <p>Computing Student | Aspiring Cyber security consultant and Pilot</p>
+        <img src="WhatsApp Image 2026-10-12 at 6.26.41 PM.jpeg" alt="Ssembogga Edward Edwin" width="150" style="border-radius: 50%;">
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="goals.html">Career Goals</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Hero / Welcome section -->
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Exploring technology, cybersecurity, and aviation.</p>
+        <p>I'm a Computer Science student passionate about building solutions and pursuing my career goals.</p>
+        <a class="button" href="about.html">Learn More About Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Edward Sembogga. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/edwardssembogga-cmyk" target="_blank" rel="noopener">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
